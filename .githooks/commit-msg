@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+
+# source: https://www.atlassian.com/git/tutorials/git-hooks
+
 message_file = ARGV[0]
 message = File.read(message_file)
 
